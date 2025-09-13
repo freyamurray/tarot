@@ -59,23 +59,49 @@ footer {
 }
 
 .output {
+    position: relative;
     margin-top: 3rem;
     font-size: 1.4rem;
     color: var(--darkpurple);
-    height: 57vh;
+    margin: auto;
+    width: 14rem; 
+    height: 24rem;
+    padding: 1rem;
 }
 
 .card-img {
-    margin: auto;
-    width: 14rem; 
-    height: 24rem;
-    padding: 1rem;
+    width: 100%;
+    margin-top: 1rem;
 }
 
 .card-img-r {
-    margin: auto;
+    /* margin: auto;
     width: 14rem; 
     height: 24rem;
-    padding: 1rem;
-    transform: rotate(180deg);
+    padding: 1rem; */
+    margin-top: 1rem;
+    width: 100%;
+    rotate: 180deg;
+}
+
+#card {
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+#blurb {
+    transition-duration: .5s;
+    position: absolute;
+    top: 0;
+    padding: 3rem 1rem;
+    align-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.inactive {
+    transform: scale(125%);
+    opacity: 15%;
 }
