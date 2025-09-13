@@ -1,0 +1,81 @@
+:root {
+    --darkpurple: rgb(62, 3, 108);
+    --white: #ffffff;
+}
+
+@font-face {
+    font-family: tarot;
+    src: url(fonts/TarotPamelaColmanSmith-Regular.ttf);
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'tarot';
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--darkpurple);
+}
+
+footer {
+    color: var(--darkpurple);
+    text-align: center;
+}
+
+.deal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#deal-btn {
+    margin: auto;
+    font-family: tarot;
+    padding: 1rem 3rem;
+    text-align: center;
+    background-color: var(--darkpurple);
+    color: var(--white);
+    border: solid var(--darkpurple);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+#deal-btn:hover {
+    background-color: white;
+    color: var(--darkpurple);
+    border: solid 2px var(--darkpurple);
+}
+
+#deal-btn:active {
+    scale: 90%;
+}
+
+.output {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    color: var(--darkpurple);
+    height: 57vh;
+}
+
+.card-img {
+    margin: auto;
+    width: 14rem; 
+    height: 24rem;
+    padding: 1rem;
+}
+
+.card-img-r {
+    margin: auto;
+    width: 14rem; 
+    height: 24rem;
+    padding: 1rem;
+    transform: rotate(180deg);
+}
