@@ -90,6 +90,8 @@ const cards = [
 ];
 
 
+
+
 function pullOne() {
     const random = Math.floor(Math.random() * cards.length);
     document.getElementById("pulled").innerHTML = cards[random];
