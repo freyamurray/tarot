@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,31 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
+
 <body>
     <header>
-        <h1>Daily 
-        Tarot</h1>
+        <div class="left">
+            <img src="images/Left.png" alt="">
+        </div>
+        <div class="heading">
+            <h1 class="header">Daily
+                Tarot</h1>
+            <small class="freya">by <a href="https://github.com/freyamurray">freya murray</a></small>
+        </div>
+        <div class="right">
+            <img src="images/Left.png" alt="">
+        </div>
     </header>
+
     <main>
         <div class="deal">
             <button id="deal-btn" onclick="pullOne()">
-                pull a card
+                draw a card
             </button>
-        <p class="output"><span id="pulled"></span></p>
+            <p class="output"><span id="pulled"></span></p>
         </div>
+
     </main>
-    <!-- <footer>
-        (c) freya murray MMXXV
-    </footer> -->
 </body>
+
 </html>
