@@ -40,8 +40,10 @@ const cards = [
     // the hermit reversed
     "The Hermit (reversed) <br> <img class=card-img-r id=card onclick=revealMeaning() src=images/The_Hermit.jpg> <p class=hidden id=blurb onclick=revealMeaning()>do not give in to the temptation to isolate yourself. <br><br> reaching out may be the best thing you can do right now. </p><p id=instruction>tap the card to reveal meaning</p>", 
     // wheel of fortune 
+    "Wheel of Fortune <br> <img class=card-img id=card onclick=revealMeaning() src=images/Wheel_of_Fortune.jpg> <p class=hidden id=blurb onclick=revealMeaning()>no feeling is final. <br><br> have faith in the universe and the people around you to come through. </p>",
     "Wheel of Fortune <br> <img class=card-img id=card onclick=revealMeaning() src=images/Wheel_Of_Fortune.jpg> <p class=hidden id=blurb onclick=revealMeaning()>no feeling is final. <br><br> have faith in the universe and the people around you to come through. </p><p id=instruction>tap the card to reveal meaning</p>",
     // wheel of fortune reversed
+    "Wheel of Fortune (reversed) <br> <img class=card-img-r id=card onclick=revealMeaning() src=images/Wheel_of_Fortune.jpg> <p class=hidden id=blurb onclick=revealMeaning()>take responsibility for your life. <br><br> you may need to hit rock bottom to realise what is not serving you. </p>",
     "Wheel of Fortune (reversed) <br> <img class=card-img-r id=card onclick=revealMeaning() src=images/Wheel_Of_Fortune.jpg> <p class=hidden id=blurb onclick=revealMeaning()>take responsibility for your life. <br><br> you may need to hit rock bottom to realise what is not serving you. </p><p id=instruction>tap the card to reveal meaning</p>",
     // justice
     "Justice <br> <img class=card-img id=card onclick=revealMeaning() src=images/Justice.jpg> <p class=hidden id=blurb onclick=revealMeaning()>take radical accountability. <br><br> challenge yourself to see the nuance you have been avoiding. </p><p id=instruction>tap the card to reveal meaning</p>", 
