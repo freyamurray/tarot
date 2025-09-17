@@ -108,6 +108,10 @@ footer {
     cursor: pointer;
 }
 
+#pulled {
+    min-height: max-content;
+}
+
 #blurb {
     transition-duration: .5s;
     position: absolute;
@@ -128,8 +132,10 @@ footer {
     opacity: 15%;
 }
 
-#instruction {
-    margin-top: 0rem;
+#instructions {
+    font-size: 1rem;
+    margin-top: 3.5rem;
+    position: inline;
 }
 
 .left, .right {
