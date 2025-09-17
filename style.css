@@ -12,6 +12,7 @@ body {
     background-color: var(--white);
     font-family: 'tarot';
     color: var(--darkpurple);
+    height: 97svh;
 }
 
 header {
@@ -46,7 +47,7 @@ footer {
     text-align: center;
 }
 
-.deal {
+.deal-daily {
     margin: auto;
     margin-top: -1.5rem;
     display: flex;
@@ -93,6 +94,7 @@ footer {
 
 .card-img, .card-img-r {
     width: 85%;
+    max-height: min-content;
     margin-top: 1rem;
     z-index: 0;
 }
@@ -134,7 +136,7 @@ footer {
     display: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
     .left, .right {
         display:block; 
         scale: 75%;
